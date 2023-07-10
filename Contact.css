@@ -1,0 +1,112 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+nav ul a
+{
+    list-style: none;
+    padding: 10px 10px 10px 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.full
+{
+    margin-right: 100px;
+    margin-left: 100px;
+    background-color: #3a3b3d;
+    color: white;
+}
+
+footer
+{
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+body > nav > ul > a:nth-child(1):hover
+{
+    background-color: #3a3b3d;
+    border-radius: 10px;
+}
+
+body > nav > ul > a:nth-child(2):hover
+{
+    background-color: #3a3b3d;
+    border-radius: 10px;
+}
+
+body > nav > ul > a:nth-child(3):hover
+{
+    background-color: #3a3b3d;
+    border-radius: 10px;
+}
+
+body > nav > ul > a:nth-child(4):hover
+{
+    background-color: #3a3b3d;
+    border-radius: 10px;
+}
+
+body > div > div.contact > h1
+{
+    position: relative;
+    left: 560px;
+    padding-top: 20px;
+}
+
+body > div > div.follow > h1
+{
+    position: relative;
+    left: 560px;
+}
+
+.phone
+{
+    position: relative;
+    left: 400px;
+}
+
+.mail
+{
+    position: relative;
+    left: 800px;
+    top: -70px;
+}
+
+.address
+{
+    position: relative;
+    left: 590px;
+    top: -50px;
+}
+
+.insta
+{
+    position: relative;
+    left: 400px;
+}
+
+.facebook
+{
+    position: relative;
+    left: 800px;
+    top: -70px;
+}
+
+.linkedin
+{
+    position: relative;
+    left: 590px;
+    top: -50px;
+}
+
